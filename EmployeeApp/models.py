@@ -14,3 +14,8 @@ class Employees(models.Model):
     Department = models.CharField(max_length=500)
     DateOfJoining = models.DateField(max_length=500)
     PhotoFileName = models.CharField(max_length=500)
+
+
+class Accounts(models.Model):
+    AccId = models.AutoField(primary_key=True)
+    AccName = models.CharField(max_length=500)

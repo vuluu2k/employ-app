@@ -37,3 +37,8 @@ def DepartmentApi(request, id=0):
             DepartmentId=department_data['DepartmentId'])
         department.delete()
         return JsonResponse("Delete successfully", safe=False)
+
+
+# @csrf_exempt
+# def EmployeeApi(request, id=0):
+#     params=request.

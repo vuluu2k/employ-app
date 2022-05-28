@@ -4,5 +4,6 @@ from EmployeeApp import views
 
 urlpatterns = [
     re_path(r'^department$', views.DepartmentApi),
-    re_path(r'^department/([0-9]+)$', views.DepartmentApi)
+    re_path(r'^department/([0-9]+)$', views.DepartmentApi),
+    # re_path(r'^employee/[0-9]+$', views.EmployeeApi),
 ]
